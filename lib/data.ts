@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
+    title: "LDRP-ITR",
     location: "Gandhinagar, Gujarat",
     description:
       "I graduated after 4 years of studying. I immediately found a job as a front-end developer.",
@@ -62,10 +62,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "E-commerce Store",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a full-stack developer on this project. Users can give public feedback to companies.",
+    tags: ["React", "FireBase", "Tailwind", "BootStrap"],
     imageUrl: corpcommentImg,
   },
   {
@@ -87,6 +87,7 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "PHP",
   "JavaScript",
   "React",
   "Next.js",
@@ -98,5 +99,6 @@ export const skillsData = [
   "Express",
   "PostgreSQL",
   "Python",
+  "BootStrap",
   "Framer Motion",
 ] as const;
