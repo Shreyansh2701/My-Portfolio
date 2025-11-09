@@ -62,25 +62,32 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "E-commerce Store",
+    title: "Free Gift Products",
     description:
-      "I worked as a full-stack developer on this project. Users can give public feedback to companies.",
-    tags: ["React", "FireBase", "Tailwind", "BootStrap"],
+      "This plugin integrates the automatic addition of free products to customers' shopping carts based on the selected products.",
+    tags: ["VueJs", "MySQL", "Symfony", "Twig"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Offer Banner",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "You can create banners, showcasing within a specified date range, creating new pages which shows offer products, pair text with captivating images.",
+    tags: ["VueJs", "MySQL", "Symfony", "Twig"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Automatic Invoice Generator",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This plugin automatically generates invoices in PDF format for customer orders, ensuring accurate billing and record-keeping.",
+    tags: ["VueJs", "MySQL", "Symfony", "Twig"],
+    // imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Real Time Chat App",
+    description:
+      "A real-time chat application that allows users to communicate instantly using Socket.io for seamless messaging.",
+    tags: ["React", "MongoDB", "SockeIo", "NodeJs", "ExpressJs", "JWT"],
+    // imageUrl: wordanalyticsImg,
   },
 ] as const;
 
@@ -97,7 +104,7 @@ export const skillsData = [
   "MongoDB",
   "Redux",
   "Express",
-  "PostgreSQL",
+  "MySQL",
   "Python",
   "BootStrap",
   "Framer Motion",
