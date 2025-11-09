@@ -80,14 +80,14 @@ export const projectsData = [
     description:
       "This plugin automatically generates invoices in PDF format for customer orders, ensuring accurate billing and record-keeping.",
     tags: ["VueJs", "MySQL", "Symfony", "Twig"],
-    // imageUrl: wordanalyticsImg,
+    imageUrl: "",
   },
   {
     title: "Real Time Chat App",
     description:
       "A real-time chat application that allows users to communicate instantly using Socket.io for seamless messaging.",
     tags: ["React", "MongoDB", "SockeIo", "NodeJs", "ExpressJs", "JWT"],
-    // imageUrl: wordanalyticsImg,
+    imageUrl: "",
   },
 ] as const;
 
